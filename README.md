@@ -1,4 +1,4 @@
-![Flowchart](https://user-images.githubusercontent.com/82536178/116002316-d5b78e80-a616-11eb-87b3-2d631e25880a.jpeg)
+
 # AR-BUSINESS-CARD
 A Simple business card might not have all the information related to you, but in an AR Business card, we get more detailed information with more reality and less paperwork.AR business card uses live image tracking technology, which is available for both ios and Android, the application can detect and track the card.
 
@@ -72,3 +72,8 @@ Apart from the A.R. business card, Auguemented reality concept can be used in ot
 1. As a poster: The popups from the card can be used as animations from the posters.
 2. To showcase movie trailers and clips 
 3. Can be modified into a Greeting card and postcard. Inclusion of pictures, popups, animations would help.
+## WORK DONE SO FAR:
+We have installed the unity hub and downloaded all the required packages like Vuforia engine, unity package,  AR foundation …. 
+Since one of our team mates tested positive for covid-19 ,we couldn’t start the design work yet .But we make sure that we will complete the project in time .
+## ISSUES FACED:
+Initially we had a error while installing unity engine 2020 version as it didn’t have in built vuforia engine .So we are using the 2019 version for convenience
