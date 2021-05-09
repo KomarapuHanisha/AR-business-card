@@ -3,12 +3,12 @@
 A Simple business card might not have all the information related to you, but in an AR Business card, we get more detailed information with more reality and less paperwork.AR business card uses live image tracking technology, which is available for both ios and Android, the application can detect and track the card.
 
 ## PREREQUISITES:
-1. Unity 3D
-2. Unity package
-3. Vuforia Engine
-4. ARCore/AR Kit
-5. AR Foundation
-6. XR Plugin management Package
+-Unity 3D
+- Unity package
+- Vuforia Engine
+-  ARCore/AR Kit
+- AR Foundation
+- XR Plugin management Package
 
 ## FLOW CHART:
 ![](Flowchart.jpeg)
