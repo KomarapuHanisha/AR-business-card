@@ -38,21 +38,16 @@ A Simple business card might not have all the information related to you, but in
 ## AR BUSINESS CARD DESIGN:  
 Our AR business card would be designed in such a way that proper solid shapes and colors are used to make the image recognition possible. 
 ## AR DEVELOPMENT:
-1. Under “AR Camera”, we create an “Image Target”.
-2. We go to image Target and select the previously created database and “AR business card” as Target
-3. Then we add 3D Object  Cylinder and scale it as x=1 and z=0.7.
-4. Now we go to Business Card Folder and select a photo and drop it in the cylinder
-5. Then we copy-paste five cylinders and paste their pictures inside.
-6. Now we add 3D Object  Quad and then rotate it 90 degrees in the x-axis direction.
-7. We then select the user avatar and drop it in the quad
-8. Then we add 3D Object Text (Text Mesh Pro)
-9. We go to Window  Text Mesh Pro and Import both “TMP Essential Resources” & “TMP Examples and Extras”.
-10. We select Font size as “1.5” and Fill in User Details such as “Name” and “Address”
-11. Now we go to the “Assets” folder and create a folder named “Scripts”. Then inside the folder, we create a “C# Script” and rename it according to what we want. For Example “LinkedIn”.
-12. Then we open the script and delete methods “Start()” and “Update()”
-13. Now, we add the method “OnMouseDown()” and add the line “Application.OpenURL();” where we paste the link of the wanted social media platform between the ().
-14. Then we pick the script and drop it in “Add Component” for that object.
-15. We repeat the same steps above for the rest of the social media links.
+1.Under “AR Camera”, we create an “Image Target”.
+2.We go to image Target and select the previously created database and “AR business card” as Target.
+3.Now we have to add the buttons required .In this case ,we have added Instagram,Youtube,Gmail,Facebook,Phone Number,Website buttons.
+4.We have to change the source image of buttons and change the size of buttons accordingly.
+5.We will create an empty game object and rename it as codes to add C# codes.
+6.We open the script and delete "start()" and "update()".
+7.Now,we add the method "buttonfunction()" and add the line  “Application.OpenURL();”
+8.Then we pick the script and drop it in “Button”for that object and add the required link by selecting button3d.buttonfunction .
+9.We repeat the same steps above for the rest of the social media links.
+All the pngs used and code for adding urls are present in the files above.
  
 ## IMAGE RECOGNITION USING VUFORIA:
 Vuforia supports 2D as well as 3D object recognition. The required target will be scanned using the Object Scanner app provided by the Vuforia engine for Android. We need to add this target to the Targets database online, similar to how we added the image targets.
